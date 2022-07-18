@@ -15,7 +15,7 @@ app.use(express.static("public"));
 main().catch(err => console.log(err));
 
 async function main() {
-  await mongoose.connect('mongodb+srv://rakibul_hasan:Hakai.123@cluster0.llqtd.mongodb.net/ todolistDB');
+  await mongoose.connect('mongodb+srv://rakibul_hasan:Hakai.123@cluster0.llqtd.mongodb.net/todolistDB');
 }
 
 const itemsSchema = {
